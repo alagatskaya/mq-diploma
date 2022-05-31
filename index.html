@@ -31,12 +31,12 @@
 		            <div class="radio">
 		              
 		                <label class="radio-group"> 
-		                  <input type="radio" name="radio-name" class="input-radio">
+		                  <input type="radio" name="radio-name" class="input-radio"> <span class="hidden">radio</span>
 		                  <span class="radio-group-name">Да</span>
 		                </label>
 
 		                <label class="radio-group"> 
-		                  <input type="radio" name="radio-name" class="input-radio"> 
+		                  <input type="radio" name="radio-name" class="input-radio"> <span class="hidden">radio-group</span>
 		                  <span class="radio-group-name">Нет</span>
 		                </label>
 		            </div>
@@ -375,7 +375,7 @@
 
 					<div class="search">
 						<form action="#">
-							<input type="text" class="input-search" placeholder="Найти..." required>    
+							<input type="text" class="input-search" placeholder="Найти..." required><span class="hidden">search</span>    
   						</form>
   						<button class="btn" alt="button"></button>
 					</div>
@@ -386,7 +386,7 @@
 
 						<div class="form">
 
-							<input type="e-mail" class="input-search input-mailing" placeholder="Ваш email-адрес" required>
+							<input type="e-mail" class="input-search input-mailing" placeholder="Ваш email-адрес" required><span class="hidden">form</span>
 
 							<button class="btn-mailing" alt="button">подписаться
 							</button>
@@ -418,15 +418,15 @@
 						<h3 class="post"><a href="#0">Темы</a>
 						</h3>
 
-						<div class="theme-list">
-					          <div><a href="#0" class="theme_item">Красота<sup>12</sup></a></div>
-					          <div><a href="#0" class="theme_item">Здоровье<sup>4</sup></a></div>
-					          <div><a href="#0" class="theme_item">Образ жизни<sup>145</sup></a></div>
-					          <div><a href="#0" class="theme_item">музыка<sup>28</sup></a></div>
-					          <div><a href="#0" class="theme_item">спорт<sup>62</sup></a></div>
-					          <div><a href="#0" class="theme_item">йога<sup>8</sup></a></div>
-					          </div>
-					    </div>
+						<ul class="theme-list">
+					          <li><a href="#0" class="theme_item">Красота<span class="decor">12</span></a></li>
+					          <li><a href="#0" class="theme_item">Здоровье<span class="decor">4</span></a></li>
+					          <li><a href="#0" class="theme_item">Образ жизни<span class="decor">145</span></a></li>
+					          <li><a href="#0" class="theme_item">музыка<span class="decor">28</span></a></li>
+					          <li><a href="#0" class="theme_item">спорт<span class="decor">62</span></a></li>
+					          <li><a href="#0" class="theme_item">йога<span class="decor">8</span></a></li>
+					          
+					    </ul>
 
 					</div>
 
@@ -559,8 +559,8 @@
   		</address>
 
 		<div class="under">
-			<p class="copyright">Copyright © 2009–2019 City Blog LLC.
-		    </p>
+			<p class="copyright"><a>Copyright © 2009–2019 City Blog LLC.
+		    </a></p>
    
 		</div>
 		
