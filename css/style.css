@@ -521,6 +521,7 @@ h1 {
 .card-about {
 	padding-left: 20px;
 	width: 100%;
+	max-height: 300px;
 }
 
 .card-about-list {
@@ -662,17 +663,26 @@ h3 {
 }
 
 .input-search {
+	display: block;
+	box-sizing: border-box;
 	background-color: #F4F7F6;
 	height: 48px;
 	border: none;
 	padding: 0 26px;
 	outline: none;
-	}
+	width: 100%;
 
-	.input-search:focus{
+}
+
+.input-search-1 {
+	display: block;
+	width: 100%;
+}
+
+.input-search:focus{
 	border: 1px solid #B59F5B;
 	height: 48px;
-	}
+}
 
 
 .btn {
@@ -789,7 +799,7 @@ li {
 	}
 
 	.news {
-		width: 269px;
+		width: 271px;
 		padding-left: 0;
 		
 	}
@@ -802,8 +812,8 @@ li {
 	.card-about {
 		margin-top: 10px;
 		padding-left: 0;
-		
   }
+
   .card-about::after {
   content:'';
   display: block;
@@ -825,9 +835,7 @@ li {
   .text {
 	font-size: 16px;
 }
-.input-search {
-width: 167px;
-}
+
 .input-mailing {
 	width: 100%;
 }
@@ -835,6 +843,13 @@ width: 167px;
 }
 
 @media (max-width: 640px) {
+	.search {
+		width: 100%;
+	}
+
+	.input-search {
+		width: 100%;
+	}
 
 	.section-content{
 		display: inline-block;
@@ -870,9 +885,7 @@ width: 167px;
 	.new-post{
 		width: 100%;
 	}
-	.input-search {
-	width: 167px;
-	}
+	
 	.input-mailing {
 	width: 100%;
 	}
@@ -910,9 +923,9 @@ width: 167px;
 	text-align: center;
 }
 
+
 .product-prices {
 	display: flex;
-	justify-content: space-between;
 }
 
 .link {
@@ -933,14 +946,19 @@ width: 167px;
 
 .products-content {
 	box-sizing: border-box;
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 	outline: 2px solid #B59F5B;
 	padding: 20px;
-	/*margin-right: -10px;
-	margin-left: -10px;*/
 	position: relative;
 	margin-top: -46px;
 	z-index: 2;
+	height: 61%;
+}
+
+.product__prices-1 {
+	margin-right: 68px;
+	margin-top: 6px;
 }
 
 .product__button {
