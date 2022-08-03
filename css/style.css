@@ -489,7 +489,7 @@ h1 {
 .section-content {
 	display: flex;
 	justify-content: space-between;
-	width: 70%;
+	width: 76%;
 	margin: 0 auto;
 	max-width: 1200px;
 }
@@ -660,6 +660,11 @@ h3 {
 
 .search {
 	display: flex;
+}
+
+.search-form {
+	display: flex;
+	width: 100%;
 }
 
 .input-search {
@@ -854,7 +859,7 @@ li {
 	.section-content{
 		display: inline-block;
 		margin: 10% 5%;
-		width: 100%;
+		width: 89%;
 	}
 
 	.news {
@@ -865,6 +870,7 @@ li {
 	.card-about {
 		margin-top: 10px;
 		padding-left: 0;
+		width: 89%;
   }
 
 	.card-content{
@@ -905,7 +911,7 @@ li {
 .products {
 	display: flex;
 	align-items: stretch;
-	width: 70%;
+	width: 76%;
 	margin: 0 auto;
 	gap: 5%;
 	}
@@ -919,7 +925,7 @@ li {
 	width: 283px;
 	position: relative;
 	z-index: 1;
-	margin: 0 10px;
+	margin: 0 19px;
 	text-align: center;
 }
 
@@ -999,14 +1005,15 @@ li {
 	}
 
 	.products-card-img {
-		margin: 0 2%;
+		margin: 0 44px;
+
 	}
 }
 
 @media (max-width: 640px) {
 	.products {
 		flex-wrap: wrap;
-		width: 100%;
+		width: 89%;
 		margin: 0 4%;
 		flex-direction: column;
 	}
@@ -1019,6 +1026,7 @@ li {
 	.products-card-img {
 		width: 95%;
 		text-align: center;
+		margin: 0 9px;
 	}
 }
 
