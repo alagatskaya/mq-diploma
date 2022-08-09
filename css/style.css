@@ -514,14 +514,15 @@ h1 {
 }
 
 .travel {
-	width: 381px;
+	width: 432px;
 	height: 297px;
 }
 
 .card-about {
 	padding-left: 20px;
-	width: 100%;
+	width: 50%;
 	max-height: 300px;
+
 }
 
 .card-about-list {
@@ -901,6 +902,7 @@ li {
 
 .our-product {
 	margin-bottom: 3rem;
+
 }
 
 .post_product {
@@ -911,7 +913,7 @@ li {
 .products {
 	display: flex;
 	align-items: stretch;
-	width: 76%;
+	max-width: 1200px;
 	margin: 0 auto;
 	gap: 5%;
 	}
@@ -919,13 +921,14 @@ li {
 .products-card {
 	display: block;
 	width: calc(95%/3);
+
 }
 
 .products-card-img {
 	width: 283px;
 	position: relative;
 	z-index: 1;
-	margin: 0 19px;
+	margin: 0 11%;
 	text-align: center;
 }
 
