@@ -996,6 +996,7 @@
 	background-color: #f4f7f6;
 	width: 76%;
 	margin: 0 auto;
+	max-width: 1200px;
   }
   
   .icon-list {
